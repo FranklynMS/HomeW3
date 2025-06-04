@@ -9,7 +9,27 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/folder/:id',
     component: () => import ('../views/FolderPage.vue')
-  }
+  },
+  {
+    path: '/experiencia',
+    component: () => import ('../views/ExperienciaPage.vue')
+  },
+   {
+    path: '/inicio',
+    component: () => import ('../views/InicioPage.vue')
+  },
+   {
+    path: '/traductor',
+    component: () => import ('../views/TraductorPage.vue')
+  },
+   {
+    path: '/sumadora',
+    component: () => import ('../views/SumadoraPage.vue')
+  },
+   {
+    path: '/tabla',
+    component: () => import ('../views/TablaPage.vue')
+  },
 ]
 
 const router = createRouter({
